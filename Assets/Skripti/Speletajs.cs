@@ -6,18 +6,27 @@ public class Speletajs : MonoBehaviour
 {
     public Rigidbody rb;
     public float speed;
+    public float jumpHeight = 11.0f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+
     }
 
-    private void FixedUpdate()
+    
+    void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
+        float jump;
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        if (Input.GetKeyDown(KeyCode.Space))
+            jump = jumpHeight;
+        else
+            jump = 0;
+
+        Vector3 movement = new Vector3(moveHorizontal, jump, moveVertical);
 
         rb.AddForce(movement * speed);
     }
