@@ -6,7 +6,7 @@ public class Speletajs : MonoBehaviour
 {
     public Rigidbody rb;
     public float speed;
-    public float jumpHeight = 11.0f;
+    public float jumpHeight;
 
     void Start()
     {

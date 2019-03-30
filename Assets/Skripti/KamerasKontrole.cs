@@ -19,3 +19,4 @@ public class KamerasKontrole : MonoBehaviour
         transform.position = player.transform.position + offset;
     }
 }
+
