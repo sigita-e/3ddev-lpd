@@ -11,7 +11,6 @@ public class Speletajs : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
     }
 
     
@@ -21,7 +20,7 @@ public class Speletajs : MonoBehaviour
         float moveVertical = Input.GetAxis("Vertical");
         float jump;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && rb.velocity.y == 0)
             jump = jumpHeight;
         else
             jump = 0;
