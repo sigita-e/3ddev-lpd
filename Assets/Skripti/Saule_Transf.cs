@@ -24,14 +24,14 @@ public class Saule_Transf : MonoBehaviour
     IEnumerator SaulesKrasa()
     {
         turpinasanas = 0;
-        float solis = 0.001f;
+        float solis = 0.0003f;
 
            while (turpinasanas < 1)
-                {
+               {
                     saule.color = Color.Lerp(noKrasas, uzKrasu, turpinasanas);
                     turpinasanas = turpinasanas + solis;
                     yield return null;
-                }
+               }
     }
 
         void Update()
