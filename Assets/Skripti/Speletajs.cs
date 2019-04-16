@@ -16,7 +16,7 @@ public class Speletajs : MonoBehaviour
     private AudioSource skana;
     public GameObject panelis;
     private bool saskarsme;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -24,9 +24,9 @@ public class Speletajs : MonoBehaviour
         artefSkaits = 0;
         RezultataTeksts();
         textLogsUzvara.text = "";
-        textLogsSakums.text = "";
-        panelis.GetComponent<CanvasGroup>();
-        panelis.SetActive(false);
+        textLogsSakums.text = "Atrodi un savāc 5 senos artefaktus!";
+        //panelis.GetComponent<CanvasGroup>();
+        //panelis.SetActive(false);
         saskarsme = true;
     }
 
@@ -53,7 +53,7 @@ public class Speletajs : MonoBehaviour
         {
             textLogsUzvara.text = "Tu esi zaudējis!";
             panelaAktivitatesMaina();
-            StartCoroutine("Pauze");
+            StartCoroutine("NogaiditSek");
 
         }
     }
@@ -69,36 +69,32 @@ public class Speletajs : MonoBehaviour
             skana.Play();
             RezultataTeksts();
         }
-        
+
     }
 
 
     void RezultataTeksts()
     {
-        textLogsSkaits.text = "Skaits: " + artefSkaits.ToString() + "/6";
-        if (artefSkaits >= 5)
+        textLogsSkaits.text = "Skaits: " + artefSkaits.ToString() + "/7";
+        if (artefSkaits >= 1)
         {
             textLogsUzvara.text = "Tu esi uzvarējis!";
             panelaAktivitatesMaina();
-            StartCoroutine("Pauze");
-    
+            StartCoroutine("NogaiditSek");
+
         }
     }
 
     void panelaAktivitatesMaina()
     {
         panelis.SetActive(true);
-        panelis.transform.GetChild(1).gameObject.SetActive(false);
+        //panelis.transform.GetChild(1).gameObject.SetActive(false);
     }
 
-    IEnumerator Pauze()
+    IEnumerator NogaiditSek()
     {
         yield return new WaitForSeconds(3);
-
-        #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-        #endif
-
-        //Application.Quit(0);
+        SceneManager.LoadScene("Spele_v2");
+        Izvelne.gameIsPaused = true;
     }
 }
