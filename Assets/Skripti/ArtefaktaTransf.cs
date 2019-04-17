@@ -9,7 +9,7 @@ public class ArtefaktaTransf : MonoBehaviour
     public Vector3 virziens;
 
     private void Start()
-    {
+    { //Random rotācijas virziens
         int koord1 = Random.Range(-1 * skaitlis, skaitlis);
         int koord2 = Random.Range(-1 * skaitlis, skaitlis);
         int koord3 = Random.Range(-1 * skaitlis, skaitlis);

@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 39463380}
   m_Layer: 0
   m_Name: Brick_bez (29)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -253,8 +253,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127533080}
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -2.5927992, y: 5.479663, z: -12.327774}
-  m_LocalScale: {x: 1.875689, y: 1.2504593, z: 0.78153706}
+  m_LocalPosition: {x: -2.5927992, y: 5.766, z: -12.327774}
+  m_LocalScale: {x: 2.3, y: 1.2504593, z: 0.78153706}
   m_Children: []
   m_Father: {fileID: 879655886}
   m_RootOrder: 9
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 145834714}
   m_Layer: 0
   m_Name: Brick_bez (6)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 176787401}
   m_Layer: 0
   m_Name: Brick (8)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 200064967}
   m_Layer: 0
   m_Name: Brick_bez (45)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 246632394}
   m_Layer: 0
   m_Name: Brick_bez (44)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 277949358}
   m_Layer: 0
   m_Name: Brick_bez (33)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 298103065}
   m_Layer: 0
   m_Name: Bricks_ar_caurumiem
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1145,7 +1145,7 @@ GameObject:
   - component: {fileID: 338806580}
   m_Layer: 0
   m_Name: Brick_bez (11)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 357503390}
   m_Layer: 0
   m_Name: Brick_bez (2)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 432693654}
   m_Layer: 0
   m_Name: Brick_bez (30)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1623,7 +1623,7 @@ GameObject:
   - component: {fileID: 472536129}
   m_Layer: 0
   m_Name: Brick_bez (9)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 473434469}
   m_Layer: 0
   m_Name: Brick_bez (38)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1896,7 +1896,7 @@ GameObject:
   - component: {fileID: 490685888}
   m_Layer: 0
   m_Name: Brick_bez (34)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2019,7 +2019,7 @@ GameObject:
   - component: {fileID: 509588960}
   m_Layer: 0
   m_Name: Brick_bez (18)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2422,7 +2422,7 @@ GameObject:
   - component: {fileID: 564979820}
   m_Layer: 0
   m_Name: Brick (7)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2513,7 +2513,7 @@ GameObject:
   - component: {fileID: 581326810}
   m_Layer: 0
   m_Name: Brick_bez (24)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3005,7 +3005,7 @@ GameObject:
   - component: {fileID: 677651411}
   m_Layer: 0
   m_Name: Brick_bez (23)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3214,7 +3214,7 @@ GameObject:
   - component: {fileID: 715734033}
   m_Layer: 0
   m_Name: Brick_bez (32)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3558,7 +3558,7 @@ GameObject:
   - component: {fileID: 776311236}
   m_Layer: 0
   m_Name: Brick_bez (5)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3960,7 +3960,7 @@ GameObject:
   - component: {fileID: 875361276}
   m_Layer: 0
   m_Name: Brick_bez (16)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4048,7 +4048,7 @@ GameObject:
   - component: {fileID: 879655886}
   m_Layer: 0
   m_Name: Bricks_bez_caurumiem
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4122,7 +4122,7 @@ GameObject:
   - component: {fileID: 904757133}
   m_Layer: 0
   m_Name: Brick_bez (21)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4455,7 +4455,7 @@ GameObject:
   - component: {fileID: 936468771}
   m_Layer: 0
   m_Name: Brick (3)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4546,7 +4546,7 @@ GameObject:
   - component: {fileID: 946976501}
   m_Layer: 0
   m_Name: Brick_bez (28)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4693,7 +4693,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Atrodi un sav\u0101c 5 senos artefaktus!"
+  m_Text: "Atrodi un sav\u0101c 5 no 7 seniem artefaktiem!"
 --- !u!222 &970409132
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5102,7 +5102,7 @@ GameObject:
   - component: {fileID: 1051991499}
   m_Layer: 0
   m_Name: Brick_bez (27)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5193,7 +5193,7 @@ GameObject:
   - component: {fileID: 1081457269}
   m_Layer: 0
   m_Name: Brick_bez (26)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5324,7 +5324,7 @@ GameObject:
   - component: {fileID: 1120822331}
   m_Layer: 0
   m_Name: Brick_bez (14)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5506,7 +5506,7 @@ GameObject:
   - component: {fileID: 1135538818}
   m_Layer: 0
   m_Name: Brick (10)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5983,7 +5983,7 @@ GameObject:
   - component: {fileID: 1294230676}
   m_Layer: 0
   m_Name: Brick_bez (19)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6193,7 +6193,7 @@ GameObject:
   - component: {fileID: 1317436217}
   m_Layer: 0
   m_Name: Brick_bez (4)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6284,7 +6284,7 @@ GameObject:
   - component: {fileID: 1324415041}
   m_Layer: 0
   m_Name: Brick (9)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6730,7 +6730,7 @@ GameObject:
   - component: {fileID: 1507203435}
   m_Layer: 0
   m_Name: Brick_bez (15)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6821,7 +6821,7 @@ GameObject:
   - component: {fileID: 1515308859}
   m_Layer: 0
   m_Name: Brick_bez (3)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6912,7 +6912,7 @@ GameObject:
   - component: {fileID: 1518368353}
   m_Layer: 0
   m_Name: Brick_bez (20)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7003,7 +7003,7 @@ GameObject:
   - component: {fileID: 1531377650}
   m_Layer: 0
   m_Name: Brick_bez (8)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7289,7 +7289,7 @@ GameObject:
   - component: {fileID: 1643319404}
   m_Layer: 0
   m_Name: Brick (5)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7380,7 +7380,7 @@ GameObject:
   - component: {fileID: 1652115842}
   m_Layer: 0
   m_Name: Brick_bez (31)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7563,7 +7563,7 @@ GameObject:
   - component: {fileID: 1671251081}
   m_Layer: 0
   m_Name: Brick (6)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7781,7 +7781,7 @@ GameObject:
   - component: {fileID: 1729019953}
   m_Layer: 0
   m_Name: Brick_bez (37)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7872,7 +7872,7 @@ GameObject:
   - component: {fileID: 1759415243}
   m_Layer: 0
   m_Name: Brick (1)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7985,7 +7985,7 @@ GameObject:
   - component: {fileID: 1788043993}
   m_Layer: 0
   m_Name: Brick_bez (36)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8076,7 +8076,7 @@ GameObject:
   - component: {fileID: 1799523417}
   m_Layer: 0
   m_Name: Brick_bez (39)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8280,7 +8280,7 @@ GameObject:
   - component: {fileID: 1894953444}
   m_Layer: 0
   m_Name: Brick_bez (35)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8371,7 +8371,7 @@ GameObject:
   - component: {fileID: 1922096338}
   m_Layer: 0
   m_Name: Brick_bez (22)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8462,7 +8462,7 @@ GameObject:
   - component: {fileID: 1924860591}
   m_Layer: 0
   m_Name: Brick_bez (12)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8553,7 +8553,7 @@ GameObject:
   - component: {fileID: 2001249563}
   m_Layer: 0
   m_Name: Brick_bez (7)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8644,7 +8644,7 @@ GameObject:
   - component: {fileID: 2009579303}
   m_Layer: 0
   m_Name: Brick_bez (25)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8843,7 +8843,7 @@ GameObject:
   - component: {fileID: 2065289402}
   m_Layer: 0
   m_Name: Brick_bez (17)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9251,7 +9251,7 @@ GameObject:
   - component: {fileID: 5636966301890450801}
   m_Layer: 0
   m_Name: Brick_bez (1)
-  m_TagString: Untagged
+  m_TagString: Siena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

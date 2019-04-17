@@ -21,7 +21,7 @@ public class Animacijas_skripts : MonoBehaviour
     {
         attalums = Vector3.Distance(Speletajs.transform.position, Artefakts.transform.position);
         //if (Input.GetKeyDown(KeyCode.Space)) //piemers ar Space
-        if (attalums <= 5.0f)
+        if (attalums <= 5.0f) //Ja spēlētājs ir tuvu, sākt animāciju ar lekšanu, ja nav, nelekāt
         {
             vertiba = true;
             animacija.SetBool("leksana", vertiba); 

@@ -26,17 +26,17 @@ public class Izvelne : MonoBehaviour {
         pogas.SetActive(false);
         skaits.SetActive(true);
         textLogsSakums.text = "";
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; //atsāk laiku
         gameIsPaused = false;
     }
 
 
-    public void Nopauzet()
+    public void Nopauzet() 
     {
         izvelne.SetActive(true);
         pogas.SetActive(true);
         skaits.SetActive(false);
-        Time.timeScale = 0f;
+        Time.timeScale = 0f; //apstādina laiku
         gameIsPaused = true;
     }
 

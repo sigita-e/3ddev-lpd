@@ -24,7 +24,7 @@ public class Speletajs : MonoBehaviour
         artefSkaits = 0;
         RezultataTeksts();
         textLogsUzvara.text = "";
-        textLogsSakums.text = "Atrodi un savāc 5 senos artefaktus!";
+        textLogsSakums.text = "Atrodi un savāc 5 no 7 seniem artefaktiem!";
         //panelis.GetComponent<CanvasGroup>();
         //panelis.SetActive(false);
         saskarsme = true;
@@ -60,7 +60,16 @@ public class Speletajs : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        saskarsme = true;
+         
+        if (other.gameObject.CompareTag("Siena")) //Lai nevar lekt pa sienu dubultā
+        {
+            saskarsme = false;
+        }
+        else
+        { 
+            saskarsme = true;
+        }
+
 
         if (other.gameObject.CompareTag("Lek_bumba"))
         {
@@ -76,7 +85,7 @@ public class Speletajs : MonoBehaviour
     void RezultataTeksts()
     {
         textLogsSkaits.text = "Skaits: " + artefSkaits.ToString() + "/7";
-        if (artefSkaits >= 1)
+        if (artefSkaits >= 5)
         {
             textLogsUzvara.text = "Tu esi uzvarējis!";
             panelaAktivitatesMaina();

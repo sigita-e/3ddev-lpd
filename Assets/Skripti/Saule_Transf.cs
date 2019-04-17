@@ -36,12 +36,12 @@ public class Saule_Transf : MonoBehaviour
 
         void Update()
     {
-        transform.RotateAround(Vector3.zero, Vector3.back, atrums * Time.deltaTime);
-        transform.LookAt(Vector3.zero);
+        transform.RotateAround(Vector3.zero, Vector3.back, atrums * Time.deltaTime); //saules rotācija apkārt spēles galdam
+        transform.LookAt(Vector3.zero); //saules 'skatīšanās' virziens uz vidu
 
         zimeJauna = Mathf.Sign(saule.transform.position.x);
 
-        if (saule.transform.position.y < 0 && zimeJauna != zimeVeca)
+        if (saule.transform.position.y < 0 && zimeJauna != zimeVeca) //ja saule atrodas zem horizonta un zīme mainās (viduspunkts), tad jāsāk no jauna
         {
             StopCoroutine("SaulesKrasa");
             StartCoroutine("SaulesKrasa");
@@ -49,7 +49,7 @@ public class Saule_Transf : MonoBehaviour
 
         zimeVeca = zimeJauna;
 
-        //sinusoida krasas maina
+        //sinusoīda krāsas maiņa
         //float t = Mathf.Sin(Time.time + Time.deltaTime);
         //saule.color = Color.Lerp(noKrasas, uzKrasu, t);
     }
